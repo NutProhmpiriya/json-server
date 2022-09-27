@@ -3,22 +3,20 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 
 const middlewares = jsonServer.defaults()
-
-server.use(jsonServer.bodyParser)
+server.use(middlewares)
 server.use((req, res, next) => {
     if (req.method === 'POST') {
-        req.body.createdAt = Date.now()
+        req.body.createdAt = Date.now().toString()
+
     }
-    if (req.method === 'PUT') {
-        req.body.updatedAt = Date.now()
+    if (req.method === 'PUT' || 'PATCH') {
+        req.body.updatedAt = Date.now().toString()
     }
     next()
 
 })
 
-server.use(middlewares)
 server.use(router)
-
 const port = 3501
 
 server.listen(port, () => {
