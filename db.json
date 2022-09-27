@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "username": "john0000",
+      "username": "john00009999",
       "password": "pass1234",
       "createdAt": "2022-09-27T17:37:59.335Z",
-      "modifiedAt": "2022-09-27T18:08:22.581Z",
+      "modifiedAt": "2022-09-27T19:05:20.682Z",
       "id": 1
     },
     {
@@ -16,14 +16,6 @@
     }
   ],
   "comments": [
-    {
-      "userId": 1,
-      "postId": 1,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Nunc sed id semper risus in hendrerit gravida. Mi in nulla posuere sollicitudin aliquam ultrices. Fusce ut placerat orci nulla pellentesque.",
-      "createdAt": "2022-09-27T18:33:50.295Z",
-      "modifiedAt": "2022-09-27T18:33:50.295Z",
-      "id": 1
-    },
     {
       "userId": 1,
       "postId": 1,
