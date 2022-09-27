@@ -4,10 +4,67 @@
       "username": "john0000",
       "password": "pass1234",
       "createdAt": "2022-09-27T17:37:59.335Z",
-      "modifiedAt": "2022-09-27T17:43:25.140Z",
+      "modifiedAt": "2022-09-27T18:08:22.581Z",
       "id": 1
+    },
+    {
+      "username": "nut",
+      "password": "pass1234",
+      "createdAt": "2022-09-27T18:08:08.470Z",
+      "modifiedAt": "2022-09-27T18:08:08.470Z",
+      "id": 2
     }
   ],
-  "comments": [],
-  "posts": []
+  "comments": [
+    {
+      "userId": 1,
+      "postId": 1,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Nunc sed id semper risus in hendrerit gravida. Mi in nulla posuere sollicitudin aliquam ultrices. Fusce ut placerat orci nulla pellentesque.",
+      "createdAt": "2022-09-27T18:33:50.295Z",
+      "modifiedAt": "2022-09-27T18:33:50.295Z",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim eu turpis. Nunc sed id semper risus in hendrerit gravida. Mi in nulla posuere sollicitudin aliquam ultrices. Fusce ut placerat orci nulla pellentesque.3333",
+      "createdAt": "2022-09-27T18:36:55.152Z",
+      "modifiedAt": "2022-09-27T18:36:55.152Z",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "title": "Post1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2022-09-27T18:25:58.126Z",
+      "modifiedAt": "2022-09-27T18:25:58.126Z",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Post2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2022-09-27T18:26:11.636Z",
+      "modifiedAt": "2022-09-27T18:26:11.636Z",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Post3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2022-09-27T18:26:15.803Z",
+      "modifiedAt": "2022-09-27T18:26:15.803Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "title": "Post3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "createdAt": "2022-09-27T18:26:22.718Z",
+      "modifiedAt": "2022-09-27T18:26:22.718Z",
+      "id": 4
+    }
+  ]
 }
