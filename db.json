@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+      "username": "john0000",
+      "password": "pass1234",
+      "createdAt": "2022-09-27T17:37:59.335Z",
+      "modifiedAt": "2022-09-27T17:43:25.140Z",
+      "id": 1
+    }
+  ],
   "comments": [],
   "posts": []
 }
