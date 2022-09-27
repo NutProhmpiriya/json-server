@@ -17,8 +17,6 @@ server.use((req, res, next) => {
 })
 
 server.use(router)
-const port = 3501
-
-server.listen(port, () => {
-    console.log(`JSON Server is running on port ${port}`)
+server.listen(3501, () => {
+    console.log(`JSON Server is running on port 3501`)
 })
