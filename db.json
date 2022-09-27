@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "johnEmail"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "email": "janeEmail"
+    },
+    {
+      "name": "Jan333e",
+      "email": "janeEmail",
+      "id": 3
+    }
+  ],
+  "comments": []
+}
