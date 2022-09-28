@@ -1,0 +1,65 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "name": "SCG Online Stores",
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Boontavron",
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105"
+      }
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "name": "jsoh doe",
+      "email": "john00009999@gmail"
+    }
+  ],
+  "orders": [],
+  "products": [],
+  "roles": [],
+  "stores": [
+    {
+      "id": 1,
+      "channelId": 1,
+      "name": "Boontavron Meenburi",
+      "address": {
+        "addressLine1": "123/1",
+        "addressLine2": "Moo 1",
+        "addressLine3": "Tambon Boontavron",
+        "addressLine4": "Amphur Meenburi",
+        "addressLine5": "Changwat Samutprakarn",
+        "addressLine6": "10270",
+        "addressLine7": "Thailand"
+      }
+    },
+    {
+      "id": 2,
+      "channelId": 1,
+      "name": "Boontavron Bangkap",
+      "address": {
+        "addressLine1": "123/1",
+        "addressLine2": "Moo 1",
+        "addressLine3": "Tambon Boontavron",
+        "addressLine4": "Amphur Bangkap",
+        "addressLine5": "Changwat Samutprakarn",
+        "addressLine6": "10270",
+        "addressLine7": "Thailand"
+      }
+    }
+  ]
+}

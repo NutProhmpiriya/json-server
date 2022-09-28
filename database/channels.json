@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "SCG Online Stores",
+        "address": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94105"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Boontavron",
+        "address": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94105"
+        }
+    }
+]

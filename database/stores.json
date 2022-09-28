@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "channelId": 1,
+        "name": "Boontavron Meenburi",
+        "address": {
+            "addressLine1": "123/1",
+            "addressLine2": "Moo 1",
+            "addressLine3": "Tambon Boontavron",
+            "addressLine4": "Amphur Meenburi",
+            "addressLine5": "Changwat Samutprakarn",
+            "addressLine6": "10270",
+            "addressLine7": "Thailand"
+        }
+    },
+    {
+        "id": 2,
+        "channelId": 1,
+        "name": "Boontavron Bangkap",
+        "address": {
+            "addressLine1": "123/1",
+            "addressLine2": "Moo 1",
+            "addressLine3": "Tambon Boontavron",
+            "addressLine4": "Amphur Bangkap",
+            "addressLine5": "Changwat Samutprakarn",
+            "addressLine6": "10270",
+            "addressLine7": "Thailand"
+        }
+    }
+]
