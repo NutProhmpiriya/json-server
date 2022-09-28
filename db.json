@@ -61,9 +61,11 @@
   ],
   "profiles": [],
   "roles": [],
-  "employee": [],
-  "stores": [],
+  "employees": [],
   "channels": [],
+  "stores": [],
+  "sector": [],
   "products": [],
-  "orders": []
+  "orders": [],
+  "jobs": []
 }
