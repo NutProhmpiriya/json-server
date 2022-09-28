@@ -1,6 +1,5 @@
 const folder = './database/';
 const fs = require('fs');
-
 const db = {};
 
 (async () => {
