@@ -67,5 +67,6 @@
   "sector": [],
   "products": [],
   "orders": [],
-  "jobs": []
+  "jobs": [],
+  "locations": []
 }
