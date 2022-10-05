@@ -1,0 +1,23 @@
+module.exports = function (socket, io) {
+    console.log("New client connected");
+
+    socket.on('emit', (msg) => {
+        socket.emit("emit", msg);
+    })
+    socket.on('broadcast', (msg) => {
+        socket.broadcast.emit("broadcast", msg);
+    })
+    socket.on('broadcast-all', (msg) => {
+        io.emit("broadcast-all", msg);
+    })
+    socket.on('join-room', (roomName) => {
+        socket.join(roomName);
+    })
+    socket.on('emit-in-room', ({ room, event, msg }) => {
+        socket.to(room).emit(event, msg)
+    })
+    socket.on('disconnect', (msg) => {
+        console.log("Client disconnected");
+    })
+
+}
