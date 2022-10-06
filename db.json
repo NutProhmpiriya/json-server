@@ -10263,5 +10263,107 @@
       "id": 21
     }
   ],
-  "planing-proker-room": []
+  "planing-proker-room": [],
+  "bookbanks": [
+    {
+      "bank_code": "002",
+      "bank_name": "ธนาคารกรุงเทพ",
+      "bank_abbr": "BBL",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "BKKBTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/bbl.png",
+      "image_color": "#1E4598",
+      "id": 1
+    },
+    {
+      "bank_code": "004",
+      "bank_name": "ธนาคารกสิกรไทย",
+      "bank_abbr": "KBANK",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "KASITHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/kbank.png",
+      "image_color": "#138F2D",
+      "id": 2
+    },
+    {
+      "bank_code": "006",
+      "bank_name": "ธนาคารกรุงไทย",
+      "bank_abbr": "KTB",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "KRTHTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/ktb.png",
+      "image_color": "#1BA5E1",
+      "id": 3
+    },
+    {
+      "bank_code": "011",
+      "bank_name": "ธนาคารทหารไทยธนชาต",
+      "bank_abbr": "TTB",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "TMBKTHB",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/ttb-128.png",
+      "image_color": "#FFFFFF",
+      "id": 4
+    },
+    {
+      "bank_code": "014",
+      "bank_name": "ธนาคารไทยพาณิชย์",
+      "bank_abbr": "SCB",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "SICOTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/scb.png",
+      "image_color": "#4E2E7F",
+      "id": 5
+    },
+    {
+      "bank_code": "025",
+      "bank_name": "ธนาคารกรุงศรีอยุธยา",
+      "bank_abbr": "BAY",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "AYUDTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/bay.png",
+      "image_color": "#FEC43B",
+      "id": 6
+    },
+    {
+      "bank_code": "065",
+      "bank_name": "ธนาคารธนชาต",
+      "bank_abbr": "TBANK",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "THBKTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/tbank.png",
+      "image_color": "#FC4F1F",
+      "id": 7
+    },
+    {
+      "bank_code": "024",
+      "bank_name": "ธนาคารยูโอบี",
+      "bank_abbr": "UOB",
+      "bank_type": "บริษัทมหาชน",
+      "bank_swift_code": "UOVBTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/ecom/logo/banks/uob.png",
+      "image_color": "#0B3979",
+      "id": 8
+    },
+    {
+      "bank_code": "030",
+      "bank_name": "ธนาคารออมสิน",
+      "bank_abbr": "GSB",
+      "bank_type": "ธนาคารของรัฐบาล",
+      "bank_swift_code": "GSBATHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/sims/production/logo/bank/GSB.png",
+      "image_color": "#FC4F1F",
+      "id": 9
+    },
+    {
+      "bank_code": "034",
+      "bank_name": "ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร (ธ.ก.ส.)",
+      "bank_abbr": "BAAC",
+      "bank_type": "ธนาคารของรัฐบาล",
+      "bank_swift_code": "BAABTHBK",
+      "image_url": "https://azecomsa99.blob.core.windows.net/sims/production/logo/bank/BAAC.png",
+      "image_color": "#FC4F1F",
+      "id": 10
+    }
+  ]
 }
