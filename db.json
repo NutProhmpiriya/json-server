@@ -61,7 +61,297 @@
   ],
   "profiles": [],
   "roles": [],
-  "employees": [],
+  "employees": [
+    {
+      "code": "QA-001",
+      "branch": [
+        {
+          "id": "631974a16e26721524f9e81a",
+          "name": "NOONTEST"
+        }
+      ],
+      "firstname_th": "ทดสอบ",
+      "lastname_th": "ทดสอบ",
+      "firstname_en": "noon",
+      "lastname_en": "noon",
+      "nickname_th": "นุ่น",
+      "nickname_eng": "",
+      "channel": "Lazada test",
+      "phone1": "0802499240",
+      "phone2": "",
+      "email": "s.natchaysae@gmail.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "status": "newlyRegistered",
+      "id": 1
+    },
+    {
+      "code": "009",
+      "branch": [
+        {
+          "id": "62f36ccf2661f5d9ed88ccf4",
+          "name": "GiftTest"
+        },
+        {
+          "id": "62f226cd19a753001266c58f",
+          "name": "OG_store"
+        }
+      ],
+      "firstname_th": "Giift",
+      "lastname_th": "Test",
+      "firstname_en": "",
+      "lastname_en": "",
+      "nickname_th": "กิ๊ฟ",
+      "nickname_eng": "",
+      "channel": "Posttest",
+      "phone1": "0998723672",
+      "phone2": "",
+      "email": "accord191gybza@gmail.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": false,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "update_date": "2022-08-11T03:54:04.488Z",
+      "status": "approved",
+      "id": 2
+    },
+    {
+      "code": "",
+      "branch": [],
+      "firstname_th": "เขม",
+      "lastname_th": "พนักงานคนหนึ่ง",
+      "firstname_en": "Khem",
+      "lastname_en": "Another employee",
+      "nickname_th": "เขม",
+      "nickname_eng": "Khem",
+      "channel": "q-chang",
+      "phone1": "0830319965",
+      "phone2": "",
+      "email": "khem.nitinun@q-chang.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": false,
+      "is_contact_email": true,
+      "update_date": "2022-08-04T04:05:33.192Z",
+      "status": "unapproved",
+      "id": 3
+    },
+    {
+      "code": "1412",
+      "branch": [],
+      "firstname_th": "ยัมโตะ",
+      "lastname_th": "เอ็มเอ็มแอล",
+      "firstname_en": "YmtO",
+      "lastname_en": "mml",
+      "nickname_th": "ชื่อเล่นยัมโตะ",
+      "nickname_eng": "NicknameYmtO",
+      "channel": "q-chang",
+      "phone1": "080-0940889",
+      "phone2": "",
+      "email": "yen.pacharapong@q-chang.com",
+      "organization": "",
+      "position": "dota2",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": false,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "update_date": "2022-07-26T04:34:56.597Z",
+      "status": "approved",
+      "id": 4
+    },
+    {
+      "code": "123456798",
+      "branch": [
+        {
+          "id": "61284bdfcfbeff00110d8c16",
+          "name": "B2BSIT"
+        },
+        {
+          "id": "614bfa22935b310018cb6b03",
+          "name": "B2BChannel"
+        },
+        {
+          "id": "61567ad4bae30f0011d2bf0d",
+          "name": "b2bqatest"
+        },
+        {
+          "id": "62beb6c22d7b624bebdad221",
+          "name": "TEST_QA"
+        },
+        {
+          "id": "61bf412bc1ff4a008ebf3b6f",
+          "name": "newb2b"
+        }
+      ],
+      "firstname_th": "test",
+      "lastname_th": "test",
+      "firstname_en": "tst",
+      "lastname_en": "test",
+      "nickname_th": "tesk",
+      "nickname_eng": "tey",
+      "channel": "B2B_QA",
+      "phone1": "123456789",
+      "phone2": "12345679",
+      "email": "test",
+      "organization": "testt",
+      "position": "test101",
+      "car_registration": "4653",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "status": "newlyRegistered",
+      "id": 5
+    },
+    {
+      "code": "123456789",
+      "branch": [
+        {
+          "id": "5b851e8188f89214c0cbae79",
+          "name": "Q-Chang"
+        }
+      ],
+      "firstname_th": "testt",
+      "lastname_th": "test",
+      "firstname_en": "tt",
+      "lastname_en": "ter",
+      "nickname_th": "terqwter",
+      "nickname_eng": "ter",
+      "channel": "q-chang",
+      "phone1": "123456789",
+      "phone2": "12345679",
+      "email": "test",
+      "organization": "test",
+      "position": "idk",
+      "car_registration": "45623",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "status": "unapproved",
+      "id": 6
+    },
+    {
+      "code": "",
+      "branch": [],
+      "firstname_th": "dotest",
+      "lastname_th": "dotest",
+      "firstname_en": "",
+      "lastname_en": "",
+      "nickname_th": "dotest",
+      "nickname_eng": "",
+      "channel": "q-chang",
+      "phone1": "901111",
+      "phone2": "",
+      "email": "12ad@aa.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": true,
+      "is_contact_email": false,
+      "status": "unapproved",
+      "id": 7
+    },
+    {
+      "code": "1111",
+      "branch": [
+        {
+          "id": "5b851e8188f89214c0cbae79",
+          "name": "Q-Chang"
+        }
+      ],
+      "firstname_th": "dotest",
+      "lastname_th": "dotest",
+      "firstname_en": "dotest",
+      "lastname_en": "dotest",
+      "nickname_th": "dotest",
+      "nickname_eng": "",
+      "channel": "q-chang",
+      "phone1": "0911111111",
+      "phone2": "",
+      "email": "11@aaa.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": false,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "status": "unapproved",
+      "id": 8
+    },
+    {
+      "code": "676743",
+      "branch": [
+        {
+          "id": "62c28f411c594345cc682492",
+          "name": "Test101"
+        },
+        {
+          "id": "62beb6c22d7b624bebdad221",
+          "name": "TEST_QA"
+        }
+      ],
+      "firstname_th": "เทส",
+      "lastname_th": "เทส",
+      "firstname_en": "test",
+      "lastname_en": "test",
+      "nickname_th": "เทสหนึ่ง",
+      "nickname_eng": "test1",
+      "channel": "Test  Channel 101",
+      "phone1": "123456789",
+      "phone2": "789456123",
+      "email": "redguard6767@gmail.com",
+      "organization": "IDK",
+      "position": "builder",
+      "car_registration": "4653",
+      "is_active": true,
+      "is_admin": true,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "update_date": "2022-07-04T07:05:36.800Z",
+      "status": "newlyRegistered",
+      "id": 9
+    },
+    {
+      "code": "003",
+      "branch": [],
+      "firstname_th": "ทดสอบ",
+      "lastname_th": "พนักงาน",
+      "firstname_en": "test",
+      "lastname_en": "emp",
+      "nickname_th": "test",
+      "nickname_eng": "test",
+      "channel": "B2B_QA",
+      "phone1": "0839394525",
+      "phone2": "",
+      "email": "natchaj.sae@gmail.com",
+      "organization": "",
+      "position": "",
+      "car_registration": "",
+      "is_active": true,
+      "is_admin": false,
+      "is_superadmin_email": false,
+      "is_contact_email": false,
+      "update_date": "2022-06-29T10:28:55.490Z",
+      "status": "newlyRegistered",
+      "id": 10
+    }
+  ],
   "channels": [],
   "stores": [],
   "sector": [],
@@ -10258,9 +10548,6 @@
         }
       ],
       "id": 20
-    },
-    {
-      "id": 21
     }
   ],
   "planing-proker-room": [],

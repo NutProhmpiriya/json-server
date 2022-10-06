@@ -1,10 +1,13 @@
 const fs = require('fs');
 const data = require('./db.json')
-const newData = require('./database/branch.json')
+const newData = require('./database/employee.json')
 const _length = newData.length;
-data.branchs = []
+data.employees = []
+
+const _status = ["newlyRegistered", "approved", "unapproved"]
 for (let i = 0; i < _length; i++) {
-  const { id, ...item } = newData[i]
-  data.branchs.push({ ...item, id: i + 1, })
+  const { _id, ...item } = newData[i]
+  const status = _status[Math.floor(Math.random() * 3)]
+  data.employees.push({ ...item, status, id: i + 1, })
 }
 fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
