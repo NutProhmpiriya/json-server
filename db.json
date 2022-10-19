@@ -10674,5 +10674,99 @@
       "name": "บุญถาวร รางน้ำ",
       "id": 5
     }
+  ],
+  "masterIncentive": [
+    {
+      "id": 1,
+      "incentiveName": "BTV-Super Incentive 1",
+      "favoriteName": "Faverite BTV",
+      "incentiveType": "Base (%)",
+      "servicePort": [
+        "port1",
+        "port2",
+        "port3",
+        "port4"
+      ],
+      "channel": [
+        {
+          "channel_code": "Q0001",
+          "channel_name": "q-chang"
+        },
+        {
+          "channel_code": "Q0002",
+          "channel_name": "SCG Online Store"
+        },
+        {
+          "channel_code": "Q0004",
+          "channel_name": "PEACARE"
+        },
+        {
+          "channel_code": "Q0005",
+          "channel_name": "BTV Online"
+        },
+        {
+          "channel_code": "Q0006",
+          "channel_name": "KTC"
+        }
+      ],
+      "jobType": 0,
+      "store": 32,
+      "startDate": "2022-10-11T03:33:49.392Z",
+      "endDate": "2022-10-19T03:33:49.392Z",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "incentiveName": "BTV-Super Incentive 2",
+      "favoriteName": "Faverite BTV 2",
+      "incentiveType": "Top up (THB)",
+      "servicePort": [
+        "port1",
+        "port2",
+        "port3",
+        "port4",
+        "port1",
+        "port2",
+        "port3",
+        "port4"
+      ],
+      "channel": [
+        {
+          "channel_code": "Q0001",
+          "channel_name": "q-chang"
+        },
+        {
+          "channel_code": "Q0002",
+          "channel_name": "SCG Online Store"
+        }
+      ],
+      "jobType": 1,
+      "store": 20,
+      "startDate": "2022-10-18T03:33:49.392Z",
+      "endDate": "2022-10-19T03:33:49.392Z",
+      "status": "in_active"
+    },
+    {
+      "id": 3,
+      "incentiveName": "BTV-Super Incentive 3",
+      "favoriteName": "Faverite BTV 3",
+      "incentiveType": "Top up (THB)",
+      "servicePort": [
+        "port1",
+        "port2",
+        "port3"
+      ],
+      "channel": [
+        {
+          "channel_code": "Q0006",
+          "channel_name": "KTC"
+        }
+      ],
+      "jobType": 1,
+      "store": 10,
+      "startDate": "2022-10-16T03:33:49.392Z",
+      "endDate": "2022-10-19T03:33:49.392Z",
+      "status": "in_active"
+    }
   ]
 }
