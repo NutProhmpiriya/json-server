@@ -64,12 +64,11 @@
   "employees": [
     {
       "code": "QA-001",
-      "branch": [
-        {
+      "branch": 
+      {
           "id": "631974a16e26721524f9e81a",
           "name": "NOONTEST"
-        }
-      ],
+      },
       "firstname_th": "ทดสอบ",
       "lastname_th": "ทดสอบ",
       "firstname_en": "noon",
@@ -87,21 +86,84 @@
       "is_admin": true,
       "is_superadmin_email": false,
       "is_contact_email": false,
-      "status": "newlyRegistered",
-      "id": 1
+      "status": "approved",
+      "id": 1,
+      "bookbank": {
+        "bankName": "ธนาคารกสิกรไทย",
+        "accountName": "sadasd2",
+        "accountNumber": "231231231231231",
+        "bookbankFile": [],
+        "bankImg": "004"
+      },
+      "address": {
+        "addressIDCard": {
+          "no": "",
+          "landmark": "",
+          "province": {
+            "name": ""
+          },
+          "district": {
+            "name": ""
+          },
+          "subDistrict": {
+            "name": ""
+          },
+          "postcode": ""
+        },
+        "isSameAddress": false,
+        "addressDocument": {
+          "no": "",
+          "landmark": "",
+          "province": {
+            "name": ""
+          },
+          "district": {
+            "name": ""
+          },
+          "subDistrict": {
+            "name": ""
+          },
+          "postcode": ""
+        }
+      },
+      "profile": {
+        "code": "QA-001",
+        "branch":
+          {
+            "id": "631974a16e26721524f9e81a",
+            "name": "บุญถาวร ราม"
+          },
+        "firstname_th": "ทดสอบ",
+        "lastname_th": "ทดสอบ",
+        "firstname_en": "noon",
+        "lastname_en": "noon",
+        "nickname_th": "นุ่น",
+        "nickname_eng": "",
+        "channel": "Lazada test",
+        "phone1": "0802499240",
+        "phone2": "",
+        "email": "s.natchaysae@gmail.com",
+        "organization": "",
+        "position": "",
+        "car_registration": "",
+        "is_active": true,
+        "is_admin": true,
+        "is_superadmin_email": false,
+        "is_contact_email": false,
+        "status": "newlyRegistered",
+        "id": 1,
+        "identityCard": "1231231231232",
+        "tel": "0802499240"
+      },
+      "modifiedAt": "2022-10-25T02:46:45.893Z"
     },
     {
       "code": "009",
-      "branch": [
+      "branch": 
         {
           "id": "62f36ccf2661f5d9ed88ccf4",
-          "name": "GiftTest"
+          "name": "บุญถาวร ราม"
         },
-        {
-          "id": "62f226cd19a753001266c58f",
-          "name": "OG_store"
-        }
-      ],
       "firstname_th": "Giift",
       "lastname_th": "Test",
       "firstname_en": "",
@@ -173,28 +235,12 @@
     },
     {
       "code": "123456798",
-      "branch": [
+      "branch":
         {
           "id": "61284bdfcfbeff00110d8c16",
-          "name": "B2BSIT"
-        },
-        {
-          "id": "614bfa22935b310018cb6b03",
-          "name": "B2BChannel"
-        },
-        {
-          "id": "61567ad4bae30f0011d2bf0d",
-          "name": "b2bqatest"
-        },
-        {
-          "id": "62beb6c22d7b624bebdad221",
-          "name": "TEST_QA"
-        },
-        {
-          "id": "61bf412bc1ff4a008ebf3b6f",
-          "name": "newb2b"
+          "name": "บุญถาวร ราม"
         }
-      ],
+      ,
       "firstname_th": "test",
       "lastname_th": "test",
       "firstname_en": "tst",
@@ -217,12 +263,12 @@
     },
     {
       "code": "123456789",
-      "branch": [
+      "branch": 
         {
           "id": "5b851e8188f89214c0cbae79",
           "name": "Q-Chang"
         }
-      ],
+      ,
       "firstname_th": "testt",
       "lastname_th": "test",
       "firstname_en": "tt",
@@ -268,12 +314,12 @@
     },
     {
       "code": "1111",
-      "branch": [
+      "branch": 
         {
           "id": "5b851e8188f89214c0cbae79",
           "name": "Q-Chang"
         }
-      ],
+      ,
       "firstname_th": "dotest",
       "lastname_th": "dotest",
       "firstname_en": "dotest",
@@ -296,16 +342,11 @@
     },
     {
       "code": "676743",
-      "branch": [
+      "branch":
         {
           "id": "62c28f411c594345cc682492",
           "name": "Test101"
         },
-        {
-          "id": "62beb6c22d7b624bebdad221",
-          "name": "TEST_QA"
-        }
-      ],
       "firstname_th": "เทส",
       "lastname_th": "เทส",
       "firstname_en": "test",
@@ -351,7 +392,8 @@
       "status": "newlyRegistered",
       "id": 10
     }
-  ],
+  ]
+  ,
   "channels": [],
   "stores": [],
   "sector": [],
