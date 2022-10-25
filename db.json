@@ -10677,9 +10677,10 @@
   ],
   "masterIncentive": [
     {
-      "id": 1,
       "incentiveName": "BTV-Super Incentive 1",
-      "favoriteName": "Faverite BTV",
+      "favoriteName": [
+        "Faverite BTV"
+      ],
       "incentiveType": "Base (%)",
       "servicePort": [
         "port1",
@@ -10716,19 +10717,20 @@
       "status": "active"
     },
     {
-      "id": 2,
       "incentiveName": "BTV-Super Incentive 2",
-      "favoriteName": "Faverite BTV 2",
+      "favoriteName": [
+        "Faverite BTV 2"
+      ],
       "incentiveType": "Top up (THB)",
       "servicePort": [
         "port1",
         "port2",
         "port3",
         "port4",
-        "port1",
-        "port2",
-        "port3",
-        "port4"
+        "port5",
+        "port6",
+        "port7",
+        "port8"
       ],
       "channel": [
         {
@@ -10747,9 +10749,11 @@
       "status": "in_active"
     },
     {
-      "id": 3,
       "incentiveName": "BTV-Super Incentive 3",
-      "favoriteName": "Faverite BTV 3",
+      "favoriteName": [
+        "Faverite BTV 3",
+        "Faverite BTV 4"
+      ],
       "incentiveType": "Top up (THB)",
       "servicePort": [
         "port1",
